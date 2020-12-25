@@ -3,7 +3,7 @@
 	<table>
 		<tr>
 			<input type='hidden' name='id' value='<?php echo $libro->getNombre()?>'>
-			<td>Nombre libro:</td>
+			<td>Nombre librosss:</td>
 			<td> <input type='text' name='nombre' value='<?php echo $libro->getNombre()?>'></td>
 		</tr>
 		<tr>
@@ -11,7 +11,7 @@
 			<td><input type='text' name='nombre' value='<?php echo $libro->getAutor()?>' ></td>
 		</tr>
 		<tr>
-			<td>Fecha Edición:</td>
+			<td>Fecha Edición editar edicion:</td>
 			<td><input type='text' name='nombmbre' value='<?php echo $libro->getAnio_edicion() ?>'></td>
 		</tr>
 		<input type='hidden' name='actualizar' value'actualizar'>
