@@ -6,6 +6,7 @@
 	$libro=new Libro();
 	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
 	$libro=$crud->obtenerLibro($_GET['nombre']);
+	este es 
 ?>
 <html>
 <head>
