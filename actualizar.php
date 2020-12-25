@@ -3,7 +3,7 @@
 	require_once('crud_libro.php');
 	require_once('libro.php');
 	$cruud= new CrudLibro();
-	$libro=new Libro();
+	aa$libro=new Libro();
 	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
 	$libro=$crud->obtenerLibro($_GET['nombre']);
 ?>
