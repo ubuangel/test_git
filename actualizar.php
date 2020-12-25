@@ -2,8 +2,13 @@
 //incluye la clase Libro y CrudLibro
 	require_once('crud_libro.php');
 	require_once('libro.php');
+<<<<<<< HEAD
 	$cruud= new CrudLibro();
 	aa$libro=new Libro();
+=======
+	$cruuud= new CrudLibro();
+	$libro=new Libro();
+>>>>>>> 1835ad2f694d9f34468e7b05f6c53fec6b41f571
 	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
 	$libro=$crud->obtenerLibro($_GET['nombre']);
 ?>
