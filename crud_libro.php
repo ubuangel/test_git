@@ -20,6 +20,9 @@ require_once('conexion.php');
 		}
  
 		// método para mostrar todos los libros
+		// método para mostrar todos los libros
+		// método para mostrar todos los libros
+		// método para mostrar todos los libros
 		public function mostrar(){
 			$db=Db::conectar();
 			$listaLibros=[];
