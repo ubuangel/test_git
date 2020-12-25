@@ -1,16 +1,3 @@
-<?php
-//incluye la clase Libro y CrudLibro
-	require_once('crud_libro.php');
-	require_once('libro.php');
-	$crud= new CrudLibro();
-	$libro=new Libro();
-	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
-	$libro=$crud->obtenerLibro($_GET['nombre']);
-?>
-<html>
-<head>
-	<title>Actualizar Libro</title>
-</head>
 <body>
 	<form action='administrar_libro.php' method='post'>
 	<table>
@@ -33,4 +20,3 @@
 	<a href="index.php">Volver</a>
 </form>
 </body>
-</html>
