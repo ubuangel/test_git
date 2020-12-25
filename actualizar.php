@@ -6,6 +6,8 @@
 	$cruud= new CrudLibro();
 	aa$libro=new Libro();
 =======esta es larama 3
+
+esta es larama 3
 	$cruuud= new CrudLibro();
 	$libro=new Libro();
 >>>>>>> 1835ad2f694d9f34468e7b05f6c53fec6b41f571
