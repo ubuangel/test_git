@@ -5,7 +5,7 @@
 <<<<<<< HEAD
 	$cruud= new CrudLibro();
 	aa$libro=new Libro();
-=======
+=======poniendo esto en rama4 
 	$cruuud= new CrudLibro();
 	$libro=new Libro();
 >>>>>>> 1835ad2f694d9f34468e7b05f6c53fec6b41f571
