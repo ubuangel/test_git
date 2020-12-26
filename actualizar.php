@@ -6,9 +6,6 @@
 	$libro=new Libro();
 	//busca el libro utilizando el id, que es enviado por GET desde la vista mostrar.php
 	$libro=$crud->obtenerLibro($_GET['nombre']);
-	este es 
-	ES
-	ES
 ?>
 <html>
 <head>
@@ -17,7 +14,14 @@
 <body>
 	<form action='administrar_libro.php' method='post'>
 	<table>
-		e' value='<?php echo $libro->getAutor()?>' ></td>
+		<tr>
+			<input type='hidden' name='id' value='<?php echo $libro->getNombre()?>'>
+			<td>Nombre libro:</td>
+			<td> <input type='text' name='nombre' value='<?php echo $libro->getNombre()?>'></td>
+		</tr>
+		<tr>
+			<td>Autor:</td>
+			<td><input type='text' name='nombre' value='<?php echo $libro->getAutor()?>' ></td>
 		</tr>
 		<tr>
 			<td>Fecha Edición:</td>
